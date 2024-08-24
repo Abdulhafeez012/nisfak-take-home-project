@@ -1,0 +1,1 @@
+default_app_config = 'surveys_builder.apps.SurveyAppConfig'
