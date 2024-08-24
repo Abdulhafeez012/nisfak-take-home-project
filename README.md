@@ -23,7 +23,7 @@ Ensure you have Docker and Docker Compose installed on your machine.
 3. **Run the initial migrations and setup roles and permissions**:
     - After the containers are up, go inside the app container:
       ```bash
-      docker-compose exec app bash
+      docker-compose exec -it survey-backend-app-1 bash
       ```
     - Run the following commands:
       ```bash
