@@ -2,7 +2,8 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from surveys_builder.utils.helpers import (
     evaluate_condition,
-    get_section_field_map
+    get_section_field_map,
+    check_dependency
 )
 from surveys_builder.models import (
     Field,
